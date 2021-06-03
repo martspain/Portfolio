@@ -1,0 +1,113 @@
+@keyframes circle-anim{
+    0%{
+        background-image: linear-gradient(to bottom right, darkblue, gold);
+    }
+    14%{
+        background-image: linear-gradient(to right, darkblue, gold);
+    }
+    29%{
+        background-image: linear-gradient(to top right, darkblue, gold);
+    }
+    43%{
+        background-image: linear-gradient(to top, darkblue, gold);
+    }
+    57%{
+        background-image: linear-gradient(to top left, darkblue, gold);
+    }
+    71%{
+        background-image: linear-gradient(to left, darkblue, gold);
+    }
+    86%{
+        background-image: linear-gradient(to bottom left, darkblue, gold);
+    }
+    100%{
+        background-image: linear-gradient(to bottom, darkblue, gold);
+    }
+}
+
+.Home-header-container{
+    height: 90vh;
+    margin-top: 5vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Home-header-pic{
+    height: 40vh;
+}
+
+.Home-header-prof{
+    border-radius: 20px;
+    height: 40vh;
+}
+
+.Home-header-screen{
+    background-image: linear-gradient(to bottom right, darkblue, black);
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.Home-header-screen:hover{
+    animation: circle-anim 0.5s infinite;
+}
+
+.Home-header-screen-liq{
+    background-color: white;
+    height: 35vh;
+    margin-top: 2.5vh !important;
+    border-radius: 10px;
+}
+
+.Home-header-keyboard{
+    background-color: black;
+    height: 35vh;
+    margin-right: 3.1vw;
+    transform: skewX(-10deg);
+    border-radius: 5px;
+}
+
+.Home-header-keys{
+    background-color: darkblue;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.Home-header-left{
+    background-color: black;
+    height: 50vh;
+    margin-left: 1.5vw;
+    margin-top: 5vh !important;
+}
+
+.Home-header-right{
+    background-color: black;
+    height: 40vh;
+    margin-left: 1.5vw;
+    margin-top: 5vh !important;
+}
+
+.Home-header-computer-title{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.Home-header-computer-item{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.Home-header-custom-ul{
+    list-style-type: none;
+    margin-top: 3vh;
+}
+
+.Home-header-screen-button{
+    height: 5vh;
+    background-color: darkblue;
+    margin-left: 1vw;
+    border-radius: 2.5vh;
+}
+
+.Home-header-screen-button:hover{
+    background-color: black;
+}
