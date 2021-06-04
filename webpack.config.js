@@ -8,6 +8,7 @@ module.exports = {
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/',
     },
 
     plugins: [
@@ -40,8 +41,16 @@ module.exports = {
                 options: {
                     outputPath: 'fonts',
                 },
-            }
+            },
+            {
+                test: /\.pdf$/,
+                use: 'file-loader?name=[name].[ext]',
+            },
         ]
-    }
+    },
+
+    devServer: {
+        historyApiFallback: true,
+    },
 
 }

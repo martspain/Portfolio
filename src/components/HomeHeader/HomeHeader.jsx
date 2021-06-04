@@ -12,9 +12,9 @@ const HomeHeader = () =>{
                 <div className="col-md-8 col-sm-5 col-6 Home-header-screen">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-11 Home-header-screen-liq">
-                            <h1 className="Home-header-computer-title">Habilidades de Programación</h1>
+                            <h1 className="Home-header-computer-title">Programming Skills</h1>
                             <div className="row justify-content-center">
-                                <div className="col-6">
+                                <div className="col-md-6 col-12">
                                     <ul className="Home-header-custom-ul">
                                         <li className="Home-header-computer-item">Javascript</li>
                                         <li className="Home-header-computer-item">CSS/SCSS</li>
@@ -22,7 +22,7 @@ const HomeHeader = () =>{
                                         <li className="Home-header-computer-item">Python</li>
                                     </ul>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-md-6 col-12">
                                     <ul className="Home-header-custom-ul">
                                         <li className="Home-header-computer-item">Java</li>
                                         <li className="Home-header-computer-item">Kotlin</li>

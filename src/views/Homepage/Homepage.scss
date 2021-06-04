@@ -1,4 +1,5 @@
 .Home-container{
     background-image: linear-gradient(to top, darkblue, white);
-    background-size: 500%;
+    height: fit-content;
+    overflow-x: hidden;
 }

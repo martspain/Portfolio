@@ -1,0 +1,464 @@
+﻿.sample-body{
+	background-color: black;
+	height: calc(100vh);
+}
+#pickleRick{
+	position:absolute;
+	width: 100vmin;
+	height: 100vmin;
+	background-color: #333333;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 150px;
+}
+#pickleRick * {
+	position: absolute;
+}
+.pickle{
+	top: 5%;
+	left: 40%;
+	height: 40em;
+	width: 15em;
+	background-color: #006400;
+	border-radius: 100px;
+	transform: translate(-50%,-50%);
+	transform: rotate(30deg);
+	border: 3px solid black;
+}
+.pickle:hover{
+	width: 14em;
+}
+.reflection{
+	background-color: #338333;
+	height: 35em;
+	width: 7em;
+	border-radius: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.leftEye{
+	background-color: #FFFFBF;
+	height: 4em;
+	width: 4em;
+	border-radius:100%;
+	border: 3px solid black;
+	top:10%;
+	left: 22%;
+}
+.leftEye:hover{
+	background-color: #8b0000;
+}
+.leftIris{
+	background-color: black;
+	height: 7px;
+	width: 7px;
+	border-radius: 100%;
+	top: 40%;
+	left: 35%;
+}
+.rightEye{
+	background-color: #FFFFBF;
+	height: 4em;
+	width: 4em;
+	border-radius:100%;
+	border: 3px solid black;
+	top:10%;
+	left: 51%;
+}
+.rightEye:hover{
+	background-color: #8b0000;
+}
+.rightIris{
+	background-color: black;
+	height: 7px;
+	width: 7px;
+	border-radius: 100%;
+	top: 40%;
+	left: 60%;
+}
+.mouth{
+	background-color: #331800;
+	height: 3em;
+	width: 8em;
+	border-radius: 150px;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 2px solid black;
+}
+.pointOne{
+	background-color: #124429;
+	height: 1em;
+	width: 1em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 50%;
+	left: 2%;
+}
+
+.pointOne:hover{
+	height: 2em;
+	width: 2em;
+}
+
+.pointTwo{
+	background-color: #124429;
+	height: 2em;
+	width: 2em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 35%;
+	left: 2%;
+}
+
+.pointTwo:hover{
+	height: 2.5em;
+	width: 2.5em;
+}
+
+.pointThree{
+	background-color: #124429;
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 75%;
+	left: 17%;
+}
+
+.pointThree:hover{
+	height: 2em;
+	width: 2em;
+}
+
+.pointFour{
+	background-color: #124429;
+	height: 1.6em;
+	width: 1.6em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 85%;
+	left: 6%;
+}
+
+.pointFour:hover{
+	height: 2.1em;
+	width: 2.1em;
+}
+
+.pointFive{
+	background-color: #124429;
+	height: 1.6em;
+	width: 1.6em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 80%;
+	left: 85%;
+}
+
+.pointFive:hover{
+	height: 2.1em;
+	width: 2.1em;
+}
+
+.pointSix{
+	background-color: #124429;
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 100%;
+	border: 2px solid #338333;
+	top: 50%;
+	left: 85%;
+}
+
+.pointSix:hover{
+	height: 2em;
+	width: 2em;
+}
+
+.toothOne{
+	background-color: white;
+	width: 10px;
+	height: 15px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:50%;
+}
+.toothOne:hover{
+	height:25px;
+}
+.toothTwo{
+	background-color: white;
+	width: 10px;
+	height: 15px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:38%;
+}
+.toothTwo:hover{
+	height:25px;
+}
+.toothThree{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:62%;
+}
+.toothThree:hover{
+	height:20px;
+}
+.toothFour{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:26%;
+}
+.toothFour:hover{
+	height:20px;
+}
+.toothFive{
+	background-color: white;
+	width: 10px;
+	height: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:14%;
+}
+.toothFive:hover{
+	height:15px;
+}
+.toothSix{
+	background-color: white;
+	width: 10px;
+	height: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 3px solid black;
+	border-bottom:0;
+	left:73%;
+}
+.toothSix:hover{
+	height:15px;
+}
+.toothSeven{
+	background-color: white;
+	width: 10px;
+	height: 15px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 50%;
+	top: 63%;
+}
+.toothSeven:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.toothEight{
+	background-color: white;
+	width: 10px;
+	height: 15px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 38%;
+	top: 63%;
+}
+.toothEight:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.toothNine{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 26%;
+	top: 74%;
+}
+.toothNine:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.toothTen{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 62%;
+	top: 74%;
+}
+.toothTen:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.toothEleven{
+	background-color: white;
+	width: 10px;
+	height: 5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 73%;
+	top: 85%;
+}
+.toothEleven:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.toothTwelve{
+	background-color: white;
+	width: 10px;
+	height: 5px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 3px solid black;
+	border-top:0;
+	left: 14%;
+	top: 85%;
+}
+.toothTwelve:hover{
+	background-color: transparent;
+	border: 0px;
+}
+.tongue{
+	background-color: red;
+	width: 25px;
+	height: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 4px solid black;
+	border-top:0;
+	left: 40%;
+	top: 33%;
+}
+.eyebrow{
+	width: 100px;
+	height: 15px;
+	border-top-left-radius: 110px;
+	border-top-right-radius: 110px;
+	border: 10px solid #c9e9fc;
+	border-bottom:0;
+	left: 25%;
+	top: 3%;
+}
+.eyebrow:hover{
+	top: 1%;
+}
+.nose{
+	width: 10px;
+	height: 26px;
+	border-bottom-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+	border: 3px solid black;
+	border-top:0;
+	left: 47.5%;
+	top: 19%;
+}
+
+.eyeWrinkleOne{
+	width: 30px;
+	height: 7px;
+	border-bottom-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+	border: 3px solid black;
+	border-top:0;
+	left: 28%;
+	top: 21%;
+}
+
+.eyeWrinkleTwo{
+	width: 30px;
+	height: 7px;
+	border-bottom-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+	border: 3px solid black;
+	border-top:0;
+	left: 58%;
+	top: 21%;
+}
+
+.mouthWrinkleOne{
+	width: 7px;
+	height: 30px;
+	border-top-right-radius: 110px;
+	border-bottom-right-radius: 110px;
+	border: 3px solid black;
+	border-left:0;
+	left: 78%;
+	top: 25%;
+}
+
+.mouthWrinkleTwo{
+	width: 7px;
+	height: 30px;
+	border-top-left-radius: 110px;
+	border-bottom-left-radius: 110px;
+	border: 3px solid black;
+	border-right:0;
+	left: 17%;
+	top: 25%;
+}
+
+.audioButtons{
+	top: 90%;
+	left: -45%;
+	background-color: red;
+}
+
+.button-holder{
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	top: 30%;
+	left: 3%;
+	height: 200px;
+	width: 150px;
+}
+
+.button-holder > div{
+	height: 75px;
+	width: 75px;
+	top: 30%;
+	border-radius:5px;
+	left: 20%;
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+
+.button-holder>div:hover{
+	background-color: #8b0000;
+	height:70px;
+	width: 70px;
+}
+
+.custom-link{
+	left:-10%;
+}

@@ -1,0 +1,55 @@
+.Footer-header{
+    background-color: black;
+    opacity: 80%;
+    height: auto;
+}
+
+.Footer-footer{
+    height: 36.2vh;
+    background-color: black;
+    opacity: 60%;
+    overflow-y: hidden;
+}
+
+.Footer-container{
+    overflow-x: hidden;
+    margin-top: 5vh;
+}
+
+.Footer-title{
+    text-align: center;
+    color: white;
+    margin:0%;
+}
+
+.Footer-contact-itemL{
+    height: 7vh;
+    margin-top: 1vh !important;
+}
+.Footer-contact-itemR{
+    height: 7vh;
+    margin-top: 1vh !important;
+    text-align: right;
+}
+
+.Footer-contact-itemI{
+    height: 7vh;
+    margin-top: 1vh !important;
+}
+
+.Footer-icon{
+    height: 7vh;
+}
+
+.Footer-contact-item-title{
+    color: white;
+    font-size: 3vw;
+    text-align: right;
+}
+
+.Footer-contact-item-link{
+    color: white;
+    font-size: 1.6vw;
+    text-align: right;
+    padding-top: 1.5vh;
+}
