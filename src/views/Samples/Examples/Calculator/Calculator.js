@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import React, { useState } from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from './Button';
