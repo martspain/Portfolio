@@ -3,12 +3,12 @@
 import React from 'react';
 import { screen, render, fireEvent, cleanup } from '@testing-library/react';
 import App from './App'
-import Calc from './views/Samples/Examples/Calculator/Calc.jsx'
+import Calculator from './views/Samples/Examples/Calculator/Calculator.js'
 
 describe('Portfolio App Testing', () => {
     xit('Validar que el cuadro de habilidades de progra y el footer existan.', () => {
         //Se renderiza el app
-        render(<App />);
+        render(<App />)
         
         //Se verifica que las habilidades existan
         expect(screen.getByTestId('ProgramSkillTest')).not.toBeNull();
@@ -16,7 +16,6 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el footer exista
         expect(screen.getByTestId('FooterTest')).not.toBeNull();
         
-        //screen.debug();
     });
 
     xit('Validar que la navegación sirva', () => {
@@ -35,12 +34,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que se muestra la educacion recibida en About Me
         expect(screen.getByText('Education')).toBeDefined();
         
-        //screen.debug();
     });
 
-    xit('Validar que la calculadora exista y que el display no tenga contenido inicial.', () => {
+    it('Validar que la calculadora exista y que el display no tenga contenido inicial.', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
         
         //Se verifica que la calculadora exista
         expect(screen.getByTestId('calculadoraTest')).not.toBeNull();
@@ -48,12 +46,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display este vacío
         expect(screen.getByDisplayValue('')).toBeDefined();
         
-        //screen.debug();
     });
 
-    xit('Verificar que se agregen y borren números.', () => {
+    it('Verificar que se agregen y borren números.', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Se hace click
         fireEvent.click(screen.getByText('5'));
@@ -86,12 +83,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display este vacío
         expect(screen.getByDisplayValue('')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar la suma.', () => {
+    it('Validar la suma.', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
         
         //Se valida la suma a través de los comandos rudimentarios ( x + y = z )
         //Se ingresa un número (40)
@@ -152,12 +148,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado de la suma (94)
         expect(screen.getByDisplayValue('94')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar la resta', () => {
+    it('Validar la resta', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Se valida la resta a través de los comandos rudimentarios ( x − y = z )
         //Se ingresa un número (100)
@@ -218,12 +213,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado de la resta (18)
         expect(screen.getByDisplayValue('18')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar la multiplicacion', () => {
+    it('Validar la multiplicacion', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Se valida la multiplicacion a través de los comandos rudimentarios ( x × y = z )
         //Se ingresa un número (120)
@@ -280,12 +274,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado de la multiplicacion (120)
         expect(screen.getByDisplayValue('120')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar la división', () => {
+    it('Validar la división', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Se valida la division a través de los comandos rudimentarios ( x ÷ y = z )
         //Se ingresa un número (100)
@@ -348,12 +341,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado de la division (0.1)
         expect(screen.getByDisplayValue('0.1')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar la operación módulo', () => {
+    it('Validar la operación módulo', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Se ingresa un número (12)
         fireEvent.click(screen.getByText('1'));
@@ -371,12 +363,11 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado de la operación módulo (5)
         expect(screen.getByDisplayValue('5')).toBeDefined();
 
-        //screen.debug();
     });
 
-    xit('Validar el funcionamiento del botón +/-', () => {
+    it('Validar el funcionamiento del botón +/-', () => {
         //Se renderiza el app
-        render(<Calc />);
+        render(<Calculator />);
 
         //Primero se prueba que no se puedan obtener numeros negativos si el boton +/- no esta activo.
         //Se ingresa un número (3)
@@ -416,7 +407,6 @@ describe('Portfolio App Testing', () => {
         //Se verifica que el display muestre el resultado negativo (-2)
         expect(screen.getByDisplayValue('-2')).toBeDefined();
 
-        //screen.debug();
     });
 
     afterAll(cleanup);
